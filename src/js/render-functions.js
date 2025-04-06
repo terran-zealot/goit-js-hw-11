@@ -44,7 +44,7 @@ export function clearGallery() {
 export function showLoader() {
     const loader = document.querySelector('.loader');
     if (loader) {
-        // console.log("loader on");
+        console.log("loader on");
         loader.classList.add('visible');
     }
 }
@@ -54,7 +54,7 @@ export function showLoader() {
 export function hideLoader() {
     const loader = document.querySelector('.loader');
     if (loader) {
-        // console.log("loader off");
+        console.log("loader off");
         loader.classList.remove('visible');
     }
 }
