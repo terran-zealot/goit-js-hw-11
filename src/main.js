@@ -8,7 +8,7 @@ import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
 import { createGallery, clearGallery, showLoader, hideLoader } from "./js/render-functions.js";
-import getImagesByQuery from "./js/pixaby-api.js";
+import getImagesByQuery from "./js/pixabay-api.js";
 
 const form = document.querySelector(".form");
 const userInput = document.querySelector("input[name='search-text']");
